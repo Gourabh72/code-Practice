@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class Question9_10 {
+public class Question9_10_12 {
     public static void main(String[] args) {
         String str="iindiiia";
 
