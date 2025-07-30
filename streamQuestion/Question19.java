@@ -8,11 +8,8 @@ import java.util.stream.Collectors;
 public class Question19 {
     public static void main(String[] args) {
         List<String> sentences = Arrays.asList(
-
                 "Java 8 introduced streams",
-
                 "Streams are powerful",
-
                 "Use streams to process data"
 
         );
@@ -24,7 +21,11 @@ public class Question19 {
                 .map(String::toLowerCase) // Convert words to lowercase for uniqueness
                 .collect(Collectors.toSet()); // Collect unique words into a set
 
-
         uniqueWords.forEach(System.out::println);
+
+        String str="I am gourabh";
+        String[] splitStr=str.split(" ");
+        System.out.println(splitStr[0]);
+        System.out.println(splitStr[1]);
     }
 }
