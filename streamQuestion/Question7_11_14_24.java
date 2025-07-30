@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Question7_11_14 {
+public class Question7_11_14_24 {
     public static void main(String[] args) {
         List<String> list=new ArrayList<>();
 
@@ -26,5 +26,9 @@ public class Question7_11_14 {
         //date=4
         //apple=5
         //carry=5
+
+        //'Convert' a list of strings to a list of their respective length
+        list.stream().mapToInt(String::length).forEach(System.out::print);
+        //5554
     }
 }
